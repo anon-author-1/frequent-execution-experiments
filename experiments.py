@@ -472,7 +472,7 @@ plt.clf()
 sns.set(rc={'figure.figsize': (24, 8)})
 plt.rcParams["axes.labelsize"] = 16
 plt.rcParams["axes.titlesize"] = 20
-cmap = sns.cubehelix_palette(rot=-.2, as_cmap=True)
+cmap = sns.cubehelix_palette(light=0.65,start=1,rot=-.2, as_cmap=True)
 plt.figure(figsize=(10, 5))
 # collect data
 x = [elem[0] for elem in results]
